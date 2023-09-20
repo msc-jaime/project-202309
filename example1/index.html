@@ -23,7 +23,7 @@
     style="color: rgba(0,0,0,0.80);">
     <h1>Html</h1>
     <h2>Formating text</h2>
-    <p>Lorem ipsum <b>dolor sit amet</b>, consectetur <i>adipisicing elit</i>. Vitae consectetur inventore aperiam accusantium recusandae numquam esse, hic est iusto similique, aut dolorum vel eos enim perferendis! Nihil, itaque dolor? Voluptates!</p>
+    <a href="#">Data</a> <p>Lorem ipsum <b>dolor sit amet</b>, consectetur <i>adipisicing elit</i>. Vitae consectetur inventore aperiam accusantium recusandae numquam esse, hic est iusto similique, aut dolorum vel eos enim perferendis! Nihil, itaque dolor? Voluptates!</p>
     <p>Lorem ipsum <strong>dolor sit amet</strong>, consectetur <em>adipisicing elit</em>. Vitae consectetur inventore aperiam accusantium recusandae numquam esse, hic est iusto similique, <br><br> aut dolorum vel eos enim perferendis! Nihil, itaque dolor? Voluptates!</p>
     <p>Lorem ipsum <mark>dolor sit amet</mark>, consectetur <small>adipisicing elit</small>. Vitae consectetur inventore <del>aperiam accusantium recusandae numquam</del> esse, <ins>hic est iusto similique</ins>, <br><br> aut dolorum vel eos enim perferendis! Nihil, itaque dolor? Voluptates!</p>
     <p>&Sigma; X<sub>n</sub> = X<sub>1</sub> + X<sub>2</sub> ... X<sub>n</sub></p>
@@ -55,8 +55,8 @@
         <li><b>B</b>: Blue (0-255)</li>
     </ul>
     <p>Ejemplo: rgb(255, 0, 0);</p>
-    <p style="color: rgb(255, 0, 0);">Lorem ipsum dolor sit amet consectetur.</p>
-    <p style="color: rgb(0, 255, 0);">Lorem ipsum dolor sit amet consectetur.</p>
+    <p id="var1" style="color: rgb(255, 0, 0);">Lorem ipsum dolor sit amet consectetur.</p>
+    <p id="var1" style="color: rgb(0, 255, 0);">Lorem ipsum dolor sit amet consectetur.</p>
     <p style="color: rgb(0, 0, 255);">Lorem ipsum dolor sit amet consectetur.</p>
     <p style="color: rgb(240, 191, 45);">Lorem ipsum dolor sit amet consectetur.</p>
     <p style="color: rgb(112, 41, 212);">Lorem ipsum dolor sit amet consectetur.</p>
@@ -134,6 +134,162 @@
     <span class="material-symbols-outlined">edit</span> <br>
     <i class="bi bi-envelope" style="color: #7029d4;"></i>
     <i class="bi bi-pen"></i> <br>
+    <h2>Tablas</h2>
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Edad</th>
+            <th>Genero</th>
+        </tr>
+        <tr>
+            <td>Pepito Perez</td>
+            <td>30</td>
+            <td>M</td>
+        </tr>
+        <tr>
+            <td>Camilo</td>
+            <td>20</td>
+            <td>F</td>
+        </tr>
+        <tr>
+            <td>Andrea</td>
+            <td>25</td>
+            <td>F</td>
+        </tr>
+    </table>
+
+    <table>
+        <tr>
+            <th>#</th>
+            <th>Colum 1</th>
+            <th>Colum 2</th>
+            <th>Colum 3</th>
+            <th>Colum 4</th>
+            <th>Colum 5</th>
+        </tr>
+        <tr>
+            <th>1</th>
+            <td>Content ...</td>
+            <td>Content ...</td>
+            <td>Content ...</td>
+            <td>Content ...</td>
+            <td>Content ...</td>
+        </tr>
+        <tr>
+            <th>2</th>
+            <td>Content ...</td>
+            <td>Content ...</td>
+            <td>Content ...</td>
+            <td>Content ...</td>
+            <td>Content ...</td>
+        </tr>
+        <tr>
+            <th>3</th>
+            <td>Content ...</td>
+            <td>Content ...</td>
+            <td>Content ...</td>
+            <td>Content ...</td>
+            <td>Content ...</td>
+        </tr>
+        <tr>
+            <th>4</th>
+            <td>Content ...</td>
+            <td>Content ...</td>
+            <td>Content ...</td>
+            <td>Content ...</td>
+            <td>Content ...</td>
+        </tr>
+        <tr>
+            <th>5</th>
+            <td>Content ...</td>
+            <td>Content ...</td>
+            <td>Content ...</td>
+            <td>Content ...</td>
+            <td>Content ...</td>
+        </tr>
+        <tr>
+            <th>6</th>
+            <td>Content ...</td>
+            <td>Content ...</td>
+            <td>Content ...</td>
+            <td>Content ...</td>
+            <td>Content ...</td>
+        </tr>
+        <tr>
+            <th>7</th>
+            <td>Content ...</td>
+            <td>Content ...</td>
+            <td>Content ...</td>
+            <td>Content ...</td>
+            <td>Content ...</td>
+        </tr>
+    </table>
+    
+    <h2>Listas</h2>
+
+    <ul>
+        <li>Item ...</li>
+        <li>Item ...</li>
+        <li>Item ...</li>
+        <li>Item ...
+            <ul style="list-style-type: square;">
+                <li>Data ...</li>
+                <li>Data ...</li>
+                <li>Data ...</li>
+                <li>Data ...</li>
+                <li>Data ...</li>
+            </ul>
+        </li>
+        <li>Item ...
+            <ul>
+                <li>Item 2° nivel ...</li>
+                <li>Item 2° nivel ...</li>
+                <li>Item 2° nivel ...</li>
+                <li>Item 2° nivel ...</li>
+            </ul>
+        </li>
+        <li>Item ...</li>
+    </ul>
+
+    <ol style="list-style-type: upper-alpha;">
+        <li>Item ...</li>
+        <li>Item ...</li>
+        <li>Item ...</li>
+        <li>
+            Item ...
+            <ol style="list-style-type: upper-roman;">
+                <li>Item 2° nivel...</li>
+                <li>Item 2° nivel...</li>
+                <li>Item 2° nivel...</li>
+            </ol>
+
+        </li>
+
+        <li>Item ...</li>
+        <li>Item ...</li>
+        <li>Item ...</li>
+        <li>Item ...</li>
+        <li>Item ...</li>
+        <li>Item ...</li>
+        <li>Item ...</li>
+        <li>Item ...</li>
+        <li>Item ...</li>
+        <li>Item ...</li>
+        <li>Item ...</li>
+        <li>Item ...</li>
+        <li>Item ...</li>
+    </ol>
+
+    <dl>
+        <dt>Coffee</dt>
+        <dd>- black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>- white cold drink</dd>
+        <dt>Milk</dt>
+        <dd>- white cold drink</dd>
+        <dt>Milk</dt>
+        <dd>- white cold drink</dd>
+    </dl>
 
     
 </body>
