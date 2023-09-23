@@ -1,0 +1,68 @@
+
+
+body {
+    margin: 0;
+}
+
+
+/* Linea 1 */
+
+/* 
+ *    Comentario    
+ *    Linea 1  
+ */
+
+h1 {
+    color: rgb(81, 78, 67);
+    /* background-color: green;*/
+    /*opacity: 10%;*/
+    background-repeat: repeat-x;
+    background: blue;
+}
+
+.algo {
+    background-image: url("../../img/fondo.jpg");
+    color: white;
+}
+
+.border-1 {
+    /*border: 1px solid rgb(135, 32, 32);*/
+    /*
+    border-left: 4px dotted orange;
+    border-right: 4px solid red;
+    border-top: 10px solid green;
+    border-bottom: 1px solid blue;
+    */
+    /* border-radius: 0 10px 10px 0;*/
+    /*border-radius: 10px;*/
+    border-radius: 0 10px;
+    border-color: rgb(135, 32, 32);
+    border-width: 1px;
+    border-style: solid;
+}
+
+.border-2 {
+    border: 1px solid black;
+    margin: 50px;
+}
+
+
+.border-3 {
+    border: 1px solid black;
+    margin: 0 auto;
+    width: 400px;
+    height: ;
+}
+
+
+.icon {
+    background-color: rgb(255, 191, 80);
+    border-radius: 15px;
+    text-align: center;
+    height: 30px;
+    width: 100px;
+}
+
+#subtitle {
+    color: brown;
+}
